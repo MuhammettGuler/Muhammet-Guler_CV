@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/fontawesome-all.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
     <header>
-        <div class="navbar">
+        <nav class="navbar">
             <div class="logo">
                 <h2><a href="#">Muhammet Güler</a></h2>
             </div>
@@ -23,6 +24,9 @@
                 <li><a href="#hakkimda">Hakkımda</a></li>
                 <li><a href="#iletisim">İletişim</a></li>
             </ul>
+        </nav>
+        <div id="manu_bar">
+            <i class="fa fa-bars"></i>
         </div>
     </header>
 
@@ -446,7 +450,55 @@
                 </form>
             </div>
         </div>
-        
     </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="inner_footer">
+            <div class="child_footer">
+                <h3>Hakkımda</h3>
+                <p>Yüksek Lisans KTU İş Güvenliği Mezunuyum (2018)</p>
+                <p>Lisans KTU Maden Mühendisliği Mezunuyum (2017)</p>
+                <ul class="footer_social">
+                    <li><a href="https://github.com/gulermuhammett" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/muhammet-guler-07381388" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="child_footer">
+                <h3 class="child_footertitle">Linkler</h3>
+                <ul class="quick_link">
+                    <li><a href="#anasayfa">Anasayfa</a></li>
+                    <li><a href="#projeler">Projeler</a></li>
+                    <li><a href="#yetenekler">Yetenekler</a></li>
+                    <li><a href="#setificalar">Setificalar</a></li>
+                    <li><a href="#deneyimler">Deneyimler</a></li>
+                    <li><a href="#hakkimda">Hakkımda</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </div>
+
+            <div class="child_footer">
+                <h3>İletişim</h3>
+                <ul class="footer_contact">
+                   <li><i class="fas fa-map-marked-alt"></i>İzmir, Karabağlar</li>
+                   <li><i class="fas fa-phone"></i>+90 (538) 543 49 68</li>
+                   <li><i class="fas fa-envelope"></i>muhammettguler@outlo...</li>
+                </ul>
+            </div>
+
+            <div class="child_footer">
+                <h3>Haberlere Hızlı Ulaş</h3>
+                <ul class="footer_contact">
+                   <form action="#">
+                    <input type="email" placeholder="email">
+                    <input type="submit" value="Gönder">
+                   </form>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
